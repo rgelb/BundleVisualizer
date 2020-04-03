@@ -125,6 +125,9 @@ namespace BundleVisualizer
                 // add space
                 lvBundles.Items.Add(new ListViewItem());
             }
+
+            lvBundles.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
+            lvBundles.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
         }
 
         private double PercentOfTotal(long fraction, long totalSize)
