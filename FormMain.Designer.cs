@@ -47,7 +47,7 @@
             this.tsBtnFileOpen});
             this.appToolbar.Location = new System.Drawing.Point(0, 0);
             this.appToolbar.Name = "appToolbar";
-            this.appToolbar.Size = new System.Drawing.Size(1449, 33);
+            this.appToolbar.Size = new System.Drawing.Size(1449, 38);
             this.appToolbar.TabIndex = 0;
             this.appToolbar.Text = "toolStrip1";
             // 
@@ -57,8 +57,8 @@
             this.tsBtnFileOpen.Image = ((System.Drawing.Image)(resources.GetObject("tsBtnFileOpen.Image")));
             this.tsBtnFileOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsBtnFileOpen.Name = "tsBtnFileOpen";
-            this.tsBtnFileOpen.Size = new System.Drawing.Size(34, 28);
-            this.tsBtnFileOpen.Text = "toolStripButton1";
+            this.tsBtnFileOpen.Size = new System.Drawing.Size(34, 33);
+            this.tsBtnFileOpen.Text = "Open bundleconfig.json";
             this.tsBtnFileOpen.Click += new System.EventHandler(this.tsBtnFileOpen_Click);
             // 
             // ofdBundle
@@ -74,9 +74,9 @@
             this.clnPercent});
             this.lvBundles.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvBundles.HideSelection = false;
-            this.lvBundles.Location = new System.Drawing.Point(0, 33);
+            this.lvBundles.Location = new System.Drawing.Point(0, 38);
             this.lvBundles.Name = "lvBundles";
-            this.lvBundles.Size = new System.Drawing.Size(1449, 834);
+            this.lvBundles.Size = new System.Drawing.Size(1449, 829);
             this.lvBundles.TabIndex = 1;
             this.lvBundles.UseCompatibleStateImageBehavior = false;
             this.lvBundles.View = System.Windows.Forms.View.Details;
