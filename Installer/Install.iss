@@ -10,7 +10,7 @@ DisableReadyPage=yes
 UninstallDisplayIcon={app}\BundleVisualizer.exe
 OutputBaseFilename=BundleVisualizer
 AppID=BundleVisualizer.1
-VersionInfoVersion=0.11
+VersionInfoVersion=0.1.1
 PrivilegesRequired=lowest
 
 [Files]
