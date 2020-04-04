@@ -52,8 +52,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BundleModel.cs" />
-    <Compile Include="BundleInputModel.cs" />
+    <Compile Include="Models\BundleModel.cs" />
+    <Compile Include="Common\NativeMethods.cs" />
+    <Compile Include="Common\Utilities.cs" />
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -91,6 +93,14 @@
   <ItemGroup>
     <Content Include="bundle_icon.ico" />
     <Content Include="Installer\Install.iss" />
+    <None Include="Resources\Refresh1.png" />
+    <None Include="Resources\if_search_298865.png" />
+    <None Include="Resources\if_icon-111-search_314689.png" />
+    <None Include="Resources\if_89_Import_Down_Download_Save_1864210.png" />
+    <None Include="Resources\if_67_Arrow_Up_Direction_Wayfinding_Upload_1864216.png" />
+    <None Include="Resources\if_67_Arrow_Up_Direction_Wayfinding_Down_1864216.png" />
+    <None Include="Resources\if_58_Cross_Circle_Remove_Delete_1864217.png" />
+    <None Include="Resources\if_52_Circled_Arrow_Left_Circle_Direcrion_1864219.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
